@@ -1,4 +1,4 @@
-# Mini VLAT Activity using REACT + Flask
+# Visualization Label using REACT + Flask
 
 This repository contains the following three major parts. Each directory has its own README on how to run the code.
 
