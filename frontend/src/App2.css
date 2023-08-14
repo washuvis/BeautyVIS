@@ -1,0 +1,97 @@
+.vis-quiz-row2 {
+    display: flex;
+    height: 99vh;
+    /* width: 100vw; */
+    position: relative;
+}
+
+.vis-column2 {
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+     @media (max-width: 500px) {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.wrap2 {
+    display: flex;
+    height: 85%;
+    width: 50vw;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    display: grid;
+    border: 1.5px solid rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    margin-bottom: 5%;
+    overflow: scroll;
+    top: 5vh;
+    right: 1vh;
+    /* left: 2vh; */
+
+  }
+p.likert-header {
+    padding-left:4.25%;
+    margin:20px 0 0;
+    font-weight: bold;
+    font-size: 2.2vh;
+  }
+  form .statement {
+    display:block;
+    font-size: 1.9vh;
+    font-weight: bold;
+    padding: 10px 0 0 4.25%;
+    margin-bottom:10px;
+    text-align: left;
+  }
+  form .likerts {
+    list-style:none;
+    width:100%;
+    margin:0;
+    padding:0 0 10px;
+    display: flex; /* Change to flex */
+    align-items: center; /* Center items horizontally */
+     justify-content: space-between; /*Distribute items evenly */
+    /* border-bottom: 2px solid #efefef; */
+
+  }
+  form .likerts:last-of-type {border-bottom:0;}
+  form .likerts:before {
+    content: '';
+    position:relative;
+    top:11px;
+    left:9.5%;
+    display:block;
+    /* background-color:#efefef; */
+    height:12px;
+    width:76%;
+  }
+  form .likerts li {
+    display:inline-block;
+    width:13%;
+    text-align:center;
+    /* vertical-align: top; */
+  }
+  form .likerts li input[type=radio] {
+    display:block;
+    position:relative;
+    /* left:50%;
+    margin-left:-6px; */
+    margin: 0 auto;
+    width: 20px; /* Increase the width */
+    height: 20px; /* Increase the height */
+    transform: scale(0.9); /* Scale up the size */
+    
+  }
+  form .likerts li label {
+      width:100%;
+      font-size: 1.6vh;
+    }
+
